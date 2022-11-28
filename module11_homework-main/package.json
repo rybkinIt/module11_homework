@@ -1,0 +1,17 @@
+{
+  "name": "module11_homework",
+  "version": "1.0.0",
+  "description": "SkillFactory: FR. Специализация «Frontend-разработчик». Домашнее задание в рамках Модуля 11 Тестирование",
+  "main": "index.js",
+  "repository": "https://github.com/leonmaks/module11_homework.git",
+  "scripts": {
+    "test": "jest",
+    "count-down-dev": "nodemon test/countDown",
+    "reverse-string-dev": "nodemon test/reverseString"
+  },
+  "author": "Le Ma <le_ma_@mail.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
+}
